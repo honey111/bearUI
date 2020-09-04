@@ -1,15 +1,18 @@
 <template>
   <div>
     <test-button></test-button>
+    <test-switch></test-switch>
   </div>
 </template>
 
 <script>
 import TestButton from './TestButton'
+import TestSwitch from './TestSwitch'
 // console.log(TestButton)
 export default {
   components: {
-    TestButton
+    TestButton,
+    TestSwitch
   }
 }
 </script>
